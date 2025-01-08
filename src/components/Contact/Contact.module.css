@@ -1,0 +1,31 @@
+.contact {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.iconText {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgb(8, 155, 155);
+}
+
+.button {
+  background-color: rgb(8, 155, 155);
+  font-weight: bolder;
+}
+
+.button:hover {
+  background-color: #e53935;
+}
